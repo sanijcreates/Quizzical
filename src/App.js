@@ -63,7 +63,7 @@ function shuffledAnswers(answers) {
   // function to identify which exact answer got selected
   // it takes two parameters questionId, answerId
   // if questionID matches with the mapped question id then it runs forEach method to all the answers; 
-  // if gets 
+  
   function selectHandle(questionId, answerId) {
     setQuestions(prevState => {
       const edited = prevState.map(data => {
